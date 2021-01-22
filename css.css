@@ -1,0 +1,81 @@
+.menu {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    background-color: #181818;
+    width: 60px;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("FontsFree-Net-Montserrat-Medium.ttf");
+}
+
+.body {
+    background-color: #1d1d1d;
+}
+
+.text {
+    font-family: Montserrat;
+    font-size: 30px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    margin: 0;
+    align-items: center;
+    background-color: #1d1d1d;
+}
+
+h2 {
+    color: #8d8d8d;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.MENU-NAVIGACE {
+
+    height: 340px;
+    width: 60px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 260px;
+
+}
+
+.nicnavigace {
+    margin-bottom: 40px;
+}
+
+a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.socky {
+
+    margin-bottom: 30px;
+    text-align: center;
+    list-style-type: none;
+    width: 60px;
+    display: block;
+    height: 150px;
+    padding: 0px;
+    margin-top: 130px;
+}
+.nicsocky {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
